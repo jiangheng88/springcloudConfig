@@ -42,17 +42,10 @@ info:
   company.name: www.atguigu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
-
-
-
- 
-  
-     
-     
-     
+   
 ---
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: microservicecloud-config-dept-client  # 这个名字是暴露给外部的微服务名称
   datasource:
